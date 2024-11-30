@@ -39,43 +39,56 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "About Neptune",
     url: "#features",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "Discoveries",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Missions",
     url: "#how-to-use",
   },
+
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
-  {
-    id: "4",
-    title: "New account",
+    title: "Explore Neptune",
     url: "#signup",
     onlyMobile: true,
   },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [
+  {
+    id: "0",
+    title: "165",
+    description: "Earth years to orbit the Sun"
+  },
+  {
+    id: "1",
+    title: "16.11",
+    description: "hours to complete one rotation"
+  },
+  {
+    id: "2",
+    title: "4.5",
+    description: "billion km from the Sun"
+  },
+  {
+    id: "3",
+    title: "3.9",
+    description: "times the diameter of Earth"
+  }
+
+];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -244,54 +257,30 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    title: "Neptune Diameter",
+    text: "It's Diameter is 49,244 km. This makes it about 3.9 times wider than Earth.",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    title: "Neptune Mass",
+    text: "Neptune is a massive planet, with a mass about 17.2 times greater than Earth’s. ",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    title: "Distance From Sun",
+    text: "4.5 billion kilometers (2.8 billion miles), or about 30.1 AU (Astronomical Units).",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
-  {
-    id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
+
 ];
 
 export const socials = [

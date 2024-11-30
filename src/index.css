@@ -86,3 +86,8 @@
 .-rotate-360 {
   @apply rotate-[-360deg]
 }
+
+
+.custom-boxShadow{
+  box-shadow: rgba(91, 118, 213, 0.6) 0px 1px 1px 0px, rgba(91, 118, 213, 0.6) 0px 50px 100px -20px, rgba(91, 118, 213, 0.6) 0px 30px 60px -30px;
+}
